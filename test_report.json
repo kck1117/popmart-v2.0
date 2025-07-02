@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-07-01T13:10:47.334111",
+  "total_tests": 7,
+  "passed_tests": 6,
+  "success_rate": 85.71428571428571,
+  "status": "MOSTLY_PASS",
+  "test_results": [
+    {
+      "test": "API連接性",
+      "success": true,
+      "message": "成功獲取 20 個產品",
+      "timestamp": "2025-07-01T13:10:28.548240"
+    },
+    {
+      "test": "商品監控功能",
+      "success": true,
+      "message": "成功測試添加/移除監控產品",
+      "timestamp": "2025-07-01T13:10:29.226171"
+    },
+    {
+      "test": "產品更新功能",
+      "success": true,
+      "message": "更新完成，進度: 100%",
+      "timestamp": "2025-07-01T13:10:47.302361"
+    },
+    {
+      "test": "通知配置功能",
+      "success": true,
+      "message": "成功更新和驗證配置",
+      "timestamp": "2025-07-01T13:10:47.312566"
+    },
+    {
+      "test": "自動修復功能",
+      "success": true,
+      "message": "啟用狀態: True, User-Agent: 5",
+      "timestamp": "2025-07-01T13:10:47.317864"
+    },
+    {
+      "test": "數據持久化",
+      "success": true,
+      "message": "成功驗證 5 個產品的數據完整性",
+      "timestamp": "2025-07-01T13:10:47.324417"
+    },
+    {
+      "test": "錯誤處理-404",
+      "success": false,
+      "message": "期望404，實際 200",
+      "timestamp": "2025-07-01T13:10:47.334013"
+    }
+  ]
+}
